@@ -27,13 +27,6 @@ function renderCafe(doc) {
     })
 }
 
-// getting data
-// db.collection('cafes').get().then((snapshot) => {
-//     snapshot.docs.forEach(doc => {
-//         renderCafe(doc);
-//     })
-// })
-
 // saving data
 form.addEventListener('submit', (e) => {
     e.preventDefault();
